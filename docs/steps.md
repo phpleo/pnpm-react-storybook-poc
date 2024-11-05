@@ -91,3 +91,18 @@ export default defineConfig({
 $ pnpm install
 $ pnpm run dev
 ```
+
+## Install `https://tailwindcss.com/`
+- https://tailwindcss.com/docs/guides/vite
+
+```bash
+$ pnpm install -D tailwindcss postcss autoprefixer
+$ pnpm dlx tailwindcss init -p
+```
+
+- Edit tailwind.config.js
+- Edit index.css
+
+```bash
+$ pnpm run dev
+```
